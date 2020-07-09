@@ -81,6 +81,19 @@ So on very deep inspection of the HTTP headers we realized and after a hint from
 
 This challenge was quite straightforward. The title suggests we needed to decompile the exe file and the description suggests that py2exe was used to create the exe file. A quick google search showed us a github tool we could use to decompile exe files that were compiled with py2exe. The python code contained the flag!
 
+![Challenge 11!](/CTFs/assets/brainhack-writeup-stuff/osint1qn.png "Challenge 11")
+
+This was a simple challenge to get started with the concept of OSINT. A quick google search of the company name shows their youtube page, and the flag was in the description. ((The youtube page is gone now oops))
+
+![Challenge 12!](/CTFs/assets/brainhack-writeup-stuff/osint2.png "Challenge 12")
+
+The next osint challenge needed a little more digging. In the compaby website, we found a file "Organization Chart.pdf" - which matched the hint of "company layout" in the description. The title hinted that we probably have to export the pdf to another file type to retrieve the flag. A quick look at the file headers showed that it was originally a powerpoint. Converting it to .ppt allowed us to move the chart around and retrieve the flag from the background!
+
+![Challenge 13!](/CTFs/assets/brainhack-writeup-stuff/osint3qn.png "Challenge 13")
+
+The third osint challenge was simpler than the second one. A google search of the company showed the domains hosted by ipaddress registered by the company. One of the domains contained the flag.
+
+
 
 
 
