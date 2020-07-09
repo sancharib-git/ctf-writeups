@@ -91,7 +91,7 @@ This was a simple challenge to get started with the concept of OSINT. A quick go
 
 ![Challenge 12!](/CTFs/assets/brainhack-writeup-stuff/osint2.png "Challenge 12")
 
-The next osint challenge needed a little more digging. In the compaby website, we found a file "Organization Chart.pdf" - which matched the hint of "company layout" in the description. The title hinted that we probably have to export the pdf to another file type to retrieve the flag. A quick look at the file headers showed that it was originally a powerpoint. Converting it to .ppt allowed us to move the chart around and retrieve the flag from the background!
+The next osint challenge needed a little more digging. In the compaby website, we found a file "Organization Chart.pdf" - which matched the hint of "company layout" in the description. The title hinted that we probably have to export the pdf to another file type to retrieve the flag. A quick look at the file headers showed that it was originally a powerpoint. Converting it to .ppt allowed us to move the chart around and retrieve the flag from the background! It can also be edited with Adobe Acrobat. 
 
 - ### Challenge 13 : OSINT - Find Company Domains
 
