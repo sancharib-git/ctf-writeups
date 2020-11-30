@@ -1,6 +1,4 @@
- # Capture-The-Flag Challenge Writeups 
- 
-## The writeups are classified by different competitions. 
+ # Capture-The-Flag Challenge Writeups  
 > Competitions
 > - [DSTA-Brainhack](/CTFs/BrainHack-DSTA/brainhack.md)
-> - [AWS Deepracer ASEAN Women's League]
+> - [AWS Deepracer ASEAN Women's League](/AWSDeepracer/)
